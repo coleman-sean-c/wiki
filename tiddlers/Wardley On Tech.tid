@@ -1,0 +1,23 @@
+created: 20210502131921266
+modified: 20210502134601802
+tags: wardley-maps
+title: Wardley On Tech
+type: text/vnd.tiddlywiki
+
+What technology should your business be using?
+
+That's kind of a huge question, particularly when you start thinking about Technology in the big-picture sense: of something created by humans to help humans fulfill a human need. We could be talking about software, machines, management styles, mental frameworks, or sharpened sticks.
+
+[[Simon Wardley]] thinks this is an answerable question. Regardless of what kind of Technology we're talking about, new or old, it has two fundamental properties that always change in the same way:
+
+* All new Technology starts as 'unavailable', and either dies out, or becomes more 'available'. By definition, no one has it at first, then the inventors, then early adopters: Over time, more and more humans become aware of the tech, get access, and start using it.
+* All new Technology starts as 'uncertain', and either dies out, or becomes more 'certain'. No one perfectly understands what a new tech might be useful for, and no one understands what it means to live in a society that has it, because that's inherently [[Complex]].
+
+By understanding 'where' your tech is on this scale, based on the ratios and rates-of-change of those two properties, you can make predictions and informed decisions on what to do about it.  
+
+Wardley describes this as four stages of Evolution:
+
+* [[Genesis]]
+* [[Custom]]
+* [[Product]]
+* [[Commodity]]
