@@ -1,0 +1,48 @@
+created: 20210430023424324
+modified: 20210502063156189
+title: The GROW Process
+type: text/vnd.tiddlywiki
+
+[[The GROW Model|https://en.wikipedia.org/wiki/GROW_model]] started in sports psychology and was adapted for use in executive coaching. I've been using it for [[Complex]] problems in technical settings, and I find it works really well when designing, pair programming, or settling architectural arguments.
+
+Use this when you hear two people saying 'No' to each other, or talking about what's 'better' or 'best'.  
+
+Caveats before we start: 
+
+* It might be possible to go without, but I wouldn't want to try this without paper, a whiteboard, a text file, or some other way of 'externalising'.
+* There's a 4 step process: You can go backwards and revisit anything if details come up in the discussion, but start at the beginning and don't skip steps. (Someone will try to leap directly from Goal to an Option. You'll need to gently stop them.)
+* This is a [[Complex]] technique. You may instead want to [[RTFM|Complicated]], or [[stop talking and put out the fire|Chaos]].
+* As a facilitator, be open to the outcome if the group picks something that you personally feel is not ideal, or 'right'. Just accept that. This process will not work if you don't.
+
+
+''G is for Goal'' 
+
+<<<
+Hold on, let's work through this. What's the goal here?
+<<<
+
+Get everyone to articulate and agree on what we're working towards. If there's disagreement, take a 'step back': go earlier in the process, or closer to the customer, or more one layer more abstract. Build a sense that we're all one team working together.  When you get a goal, write it down and underline it.
+
+''R is for Reality''
+
+<<<
+Great!  Now, before we talk about options, let's talk about the facts on the ground.
+<<<
+
+Get everyone to articulate and agree on the objective facts, hard restrictions, existing resources, parameters to optimise. Listen, try get everyone's contribution, acknowledge different perspectives and be open to stuff you might have missed. Build a sense that this is a collective effort. Use [[The Clean Language]] if you need clarity. Write down everything as comes up.
+
+''O is for Options''
+
+<<<
+That looks good! Unless there's anything we've missed, let's talk about options.
+<<<
+
+Get everyone to produce a list of things that might move us towards the goal. If there's any hesitation, go first, suggest something extremely stupid, and write it down before anyone stops you. "We could do this. I mean, it would have consequences, but we could!" Build a non-judgemental environment. It is urgent and vital to separate options from the person who came up with them- don't ever describe one as 'Alex's idea'. As options come up, immediately write them down.
+
+''W is for Way Forward''
+
+<<<
+So now we have a list of options. We could pick any one of these, and it would move us closer to the goal. So... let's pick one! 
+<<<
+
+Get everyone to collectively commit to an option. It's possible to do this with a vote, but not ideal; particularly when it is less important which option the group picks, and more important that the group makes a decision and feels ownership over it. Instead, start by crossing out the ones with consequences that we just aren't willing to accept, and then discuss the others. If there's disagreement over whether to cross out an option, try and get the group talking about it in terms of consequences, not 'better' or 'worse'. It's possible there's something missing from the 'R' section. Repeat until there is consensus that every option left on the board is acceptable, and then just... pick one. Draw a little crown over the option we picked, and break up the meeting.
