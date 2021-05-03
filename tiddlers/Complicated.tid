@@ -1,0 +1,16 @@
+created: 20210503014539630
+modified: 20210503041006124
+tags: cynefin
+title: Complicated
+type: text/vnd.tiddlywiki
+
+In the Complicated domain, problems might be opaque, but they have symptoms which can be analyzed, and react in ways that are predictable.
+
+Complicated systems have 'governing constraints', 
+
+ Once you understand the state of the system, someone with specialist knowledge (or Google), could potentially write down a step-by-step procedure in advance, and hand it to someone else to execute.
+
+Repairing a car, solving a Rubik's cube, `git rebase -i`.  "I don't know how to do that, but I know someone who does."
+
+The way to solve problems in the Complicated domain is to 'sense, analyze, respond'. 
+
