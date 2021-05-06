@@ -1,10 +1,14 @@
 created: 20210430022357201
-modified: 20210502063156176
+modified: 20210506085802074
 title: Communication Tools
 type: text/vnd.tiddlywiki
 
+They don't make a big deal of this in Engineering school, but some of the most key skills for a programmer are communication, empathy, curiosity and kindness. In order to create a good piece of technology, you need to understand people and their needs. In order to do anything at scale, you need to collaborate. And in order to write good code, you need to [[understand how people will read it|Code Is Storytelling]].
+
 Here are some tools and frameworks I've been using recently:
 
-* [[The GROW Process]]
-* [[The Clean Language]]
-* [[Crew Resource Management]]
+* [[The GROW Process]] : How to make technical decisions and stay friends
+* [[The Clean Language]] : How to talk to product people
+* [[The Conditional I-Statement Method]] : How to ask for things
+* [[The Assertive Statement Method]] : How to tell your boss they are about to make a mistake
+* [[Things That Do Stuff ]] : How to improve the sentence-level clarity of your technical writing
