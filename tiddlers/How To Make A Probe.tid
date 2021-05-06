@@ -1,0 +1,17 @@
+created: 20210506080244361
+modified: 20210506081702884
+tags: cynefin
+title: How To Make A Probe
+type: text/vnd.tiddlywiki
+
+In the [[Complex]] domain, we can't know the results of our actions in advance, and we [[can't map out the whole space|The Game Of Go]] before we do anything. Instead, we have to make Probes, with the understanding that they will [[probably fail|https://lizkeogh.com/2018/07/28/probably-not/]].  
+
+A good probe is a plan of action that has 5 elements:
+
+* ''Coherence'': A reason to think the probe might do something.
+* A method to ''Amplify'': What to try next if this works and we want to do more of it.
+* A method to ''Dampen'': What to try if this doesn't work, and we want to back out and do something different.
+* ''Signs of Success'': Something to look for that indicates it's time to amplify.
+* ''Signs of Failure'': Something to look for that indicates it's time to dampen.
+
+In the Complex domain, you can't just undo something. In a social setting, the act of stating the intention to try a probe has ripple effects that can't be taken back. And you can't be certain that a probe won't break something in an unpredicted way and send everything into [[Chaos]]. But you can attempt to make your probes safe-to-fail, and you can dedicate yourself to paying attention to the outcomes, and this is a good framework for doing that.

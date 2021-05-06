@@ -1,0 +1,13 @@
+created: 20210506081800521
+modified: 20210506082953827
+tags: 
+title: The Game Of Go
+type: text/vnd.tiddlywiki
+
+(As distinct from [[The Language Of Go]].  Thanks, Google.)
+
+The game of [[Tic-Tac-Toe|https://en.wikipedia.org/wiki/Tic-tac-toe]] is played on a 3x3 grid, which means there are about 765 possible games. Someone threw a computer at the problem, and it's been solved: [[this diagram|https://xkcd.com/832/]] is a [[checklist of step-by-step instructions|Complicated]] for how to play a perfect game of Tic-Tac-Toe.
+
+The game of [[Go|https://en.wikipedia.org/wiki/Go_(game)]] is played on a 19x19 grid, which means there are many more possible moves to consider each turn, and 'correct' play obviously depends on what your opponent does. There are about 2.1 × 10^^170^^ possible games- which means that if you wanted to create a checklist for how to play a perfect game of Go, you'd need more atoms than there are in the universe in order to write it down.  [[It can't be solved|Complex]].
+
+And yet, it's possible to be very good at Go.  And I find that fascinating.
