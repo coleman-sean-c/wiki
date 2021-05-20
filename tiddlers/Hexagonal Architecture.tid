@@ -1,0 +1,9 @@
+created: 20210520061037744
+modified: 20210520131040941
+tags: 
+title: Hexagonal Architecture
+type: text/vnd.tiddlywiki
+
+Here's the Netflix Tech Blog on [[The Hexagonal Architecture|https://netflixtechblog.com/ready-for-changes-with-hexagonal-architecture-b315ec967749]].  
+
+I've been curious for a while about the differences between this and Uncle Bob's Clean Architecture, but this explanation seems much closer to what I use when I'm [[programming|Programming]], I might take that as a reference going forward.

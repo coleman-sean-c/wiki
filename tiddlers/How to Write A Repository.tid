@@ -1,0 +1,25 @@
+created: 20210520040430827
+modified: 20210520131040948
+tags: 
+title: How to Write A Repository
+type: text/vnd.tiddlywiki
+
+Here's a [[Programming]] technique that I use on my personal projects, and would love to try on a team that was willing to experiment with it: [[Phil Calçado]] on [[How To Write A Repository|https://philcalcado.com/2010/12/23/how_to_write_a_repository.html]]
+
+Instead of the usual naming:
+
+```
+class OrderRepository {
+List<Order> getOrdersFor(Account a){...}
+}
+```
+
+Name the classes and methods like this:
+
+```
+class AllOrders {
+List<Order> belongingTo(Account a){...}
+}
+```
+
+This kind of naming is fluent to read and write, and makes it easy to spot when there's a method that wouldn't be appropriate on a 'list of Order objects'.  

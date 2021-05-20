@@ -231,6 +231,8 @@ Error message and password prompt
 
 <li>Complicated</li>
 
+<li>Confused</li>
+
 <li>Cynefin</li>
 
 <li>Dave Snowden</li>
@@ -239,9 +241,15 @@ Error message and password prompt
 
 <li>Hello World</li>
 
+<li>Hexagonal Architecture</li>
+
 <li>How To Make A Probe</li>
 
+<li>How to Write A Repository</li>
+
 <li>Liz Keogh</li>
+
+<li>Programming</li>
 
 <li>Simon Wardley</li>
 
@@ -10366,26 +10374,13 @@ background-color: &lt;&lt;colour tiddler-info-background&gt;&gt;;}
 <pre>[[Hello World]]
 </pre>
 </div>
-<div created="20210502063426300" modified="20210502063426300" status="complete" title="$:/Import" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div created="20210520131040913" modified="20210520131040913" status="complete" title="$:/Import" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>The following tiddlers were imported:
 
-# [[$:/themes/nico/notebook]]
-# [[$:/plugins/nico/notebook-mobile/js/notebookSidebarNav.js]]
-# [[$:/config/EditorTypeMappings/text/vnd.tiddlywiki]]
-# [[$:/plugins/danielo515/ContextPlugin/widgets/context.js]]
-# [[$:/plugins/danielo515/ContextPlugin/Caption]]
-# [[$:/plugins/snowgoon88/edit-comptext/config]]
-# [[$:/.giffmex/.Stylesheet4Stroll]]
-# [[$:/.giffmex/sidebar/tabs/strollcontrols]]
-# [[$:/.giffmex/ViewTemplate/refscontext]]
-# [[$:/.giffmex/ViewTemplate/refshidden]]
-# [[$:/.giffmex/ViewTemplate/refslinks]]
-# [[$:/.giffmex/ViewTemplate/refstranscludeclean]]
-# [[$:/.giffmex/ViewTemplate/refstranscludecollapse]]
-# [[$:/config/RelinkOnRename]]
-# [[$:/plugins/danielo515/context/css]]
-# [[$:/plugins/danielo515/ContextPlugin]]
-# [[$:/plugins/snowgoon88/edit-comptext]]</pre>
+# [[Confused]]
+# [[Hexagonal Architecture]]
+# [[How to Write A Repository]]
+# [[Programming]]</pre>
 </div>
 <div title="$:/isEncrypted" revision="0" bag="default">
 <pre>no</pre>
@@ -11290,6 +11285,13 @@ The way to solve problems in the Complicated domain is to 'sense, analyze, respo
 In the diagram, the Complicated domain shares a 'liminal' border zone with the [[Complex]] domain, where things that are uncertain are explored over time, and best practices gradually develop.
 </pre>
 </div>
+<div created="20210520034348365" modified="20210520131040928" tags="cynefin" title="Confused" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>In [[Cynefin]], when you are Confused, you don't know what domain you are in, and might end up acting inappropriately for your context.
+
+I had a boss once who stood over someone's desk and screamed at them until they had renamed their external drive from S:// to W://.  
+
+[[Dave Snowden]] distinguishes between accidental, unintentional Confusion, and deliberate, thoughtful Aphonia, or the act of questioning your assumptions. Are we sure that someone hasn't done this before and left detailed instructions we could follow?  Is there a chance this is an emergency?</pre>
+</div>
 <div created="20210502071050264" modified="20210502152331539" tags="cynefin" title="Cynefin" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>&lt;&lt;&lt;
 Say 'Kevin'. Now say 'Nuh'. Now say 'Kuh-nev-in'.
@@ -11324,6 +11326,11 @@ Hello! My name is Sean Coleman, I live in Hong Kong, and I solve [[problems|Cyne
 
 [[This|About This Site]] is my bag of things which I find useful, edible, or beautiful.</pre>
 </div>
+<div created="20210520061037744" modified="20210520131040941" tags="" title="Hexagonal Architecture" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>Here's the Netflix Tech Blog on [[The Hexagonal Architecture|https://netflixtechblog.com/ready-for-changes-with-hexagonal-architecture-b315ec967749]].  
+
+I've been curious for a while about the differences between this and Uncle Bob's Clean Architecture, but this explanation seems much closer to what I use when I'm [[programming|Programming]], I might take that as a reference going forward.</pre>
+</div>
 <div created="20210506080244361" modified="20210506081702884" tags="cynefin" title="How To Make A Probe" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>In the [[Complex]] domain, we can't know the results of our actions in advance, and we [[can't map out the whole space|The Game Of Go]] before we do anything. Instead, we have to make Probes, with the understanding that they will [[probably fail|https://lizkeogh.com/2018/07/28/probably-not/]].  
 
@@ -11337,8 +11344,32 @@ A good probe is a plan of action that has 5 elements:
 
 In the Complex domain, you can't just undo something. In a social setting, the act of stating the intention to try a probe has ripple effects that can't be taken back. And you can't be certain that a probe won't break something in an unpredicted way and send everything into [[Chaos]]. But you can attempt to make your probes safe-to-fail, and you can dedicate yourself to paying attention to the outcomes, and this is a good framework for doing that.</pre>
 </div>
+<div created="20210520040430827" modified="20210520131040948" tags="" title="How to Write A Repository" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>Here's a [[Programming]] technique that I use on my personal projects, and would love to try on a team that was willing to experiment with it: [[Phil Calçado]] on [[How To Write A Repository|https://philcalcado.com/2010/12/23/how_to_write_a_repository.html]]
+
+Instead of the usual naming:
+
+```
+class OrderRepository {
+List&lt;Order&gt; getOrdersFor(Account a){...}
+}
+```
+
+Name the classes and methods like this:
+
+```
+class AllOrders {
+List&lt;Order&gt; belongingTo(Account a){...}
+}
+```
+
+This kind of naming is fluent to read and write, and makes it easy to spot when there's a method that wouldn't be appropriate on a 'list of Order objects'.  </pre>
+</div>
 <div created="20210506070155053" modified="20210506070636563" tags="" title="Liz Keogh" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>Liz is a well known [[blogger|https://lizkeogh.com]], international speaker, and Agile coach, who tweets as [[@lunivore|https://twitter.com/lunivore]] and has consistently fascinating posts on [[Agile]], [[Cynefin]], and [[programming|Programming]].</pre>
+</div>
+<div created="20210520040404858" modified="20210520131040952" tags="" title="Programming" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre></pre>
 </div>
 <div created="20210430063426123" modified="20210502063139046" tags="people" title="Simon Wardley" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>&lt;&lt;&lt;

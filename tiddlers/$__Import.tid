@@ -1,25 +1,12 @@
-created: 20210502063426300
-modified: 20210502063426300
+created: 20210520131040913
+modified: 20210520131040913
 status: complete
 title: $:/Import
 type: text/vnd.tiddlywiki
 
 The following tiddlers were imported:
 
-# [[$:/themes/nico/notebook]]
-# [[$:/plugins/nico/notebook-mobile/js/notebookSidebarNav.js]]
-# [[$:/config/EditorTypeMappings/text/vnd.tiddlywiki]]
-# [[$:/plugins/danielo515/ContextPlugin/widgets/context.js]]
-# [[$:/plugins/danielo515/ContextPlugin/Caption]]
-# [[$:/plugins/snowgoon88/edit-comptext/config]]
-# [[$:/.giffmex/.Stylesheet4Stroll]]
-# [[$:/.giffmex/sidebar/tabs/strollcontrols]]
-# [[$:/.giffmex/ViewTemplate/refscontext]]
-# [[$:/.giffmex/ViewTemplate/refshidden]]
-# [[$:/.giffmex/ViewTemplate/refslinks]]
-# [[$:/.giffmex/ViewTemplate/refstranscludeclean]]
-# [[$:/.giffmex/ViewTemplate/refstranscludecollapse]]
-# [[$:/config/RelinkOnRename]]
-# [[$:/plugins/danielo515/context/css]]
-# [[$:/plugins/danielo515/ContextPlugin]]
-# [[$:/plugins/snowgoon88/edit-comptext]]
+# [[Confused]]
+# [[Hexagonal Architecture]]
+# [[How to Write A Repository]]
+# [[Programming]]
