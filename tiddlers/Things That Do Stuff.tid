@@ -1,0 +1,36 @@
+created: 20210524072930624
+modified: 20210526015703615
+tags: 
+title: Things That Do Stuff
+type: text/vnd.tiddlywiki
+
+Have you ever had someone read your writing and complain that it was 'confusing' or 'unclear'?  Here's an editing technique to improve the line-by line clarity of your writing, that I learned from an excellent course with [[Larry McEnerney|https://college.uchicago.edu/news/faculty-stories/how-one-uchicago-scholar-has-shaped-writing-generations-students]].
+
+The value of technical writing is to help your reader understand something they are interested in. In order to do that, your reader has to parse what you've written into a mental model. The human brain, evolved for [[monkeyscale|Monkeyscale]] problems, finds it easiest to model the world in terms of 'things' that 'do stuff'. This tendency mirrors what you see in the structure of the English Language, where every sentence needs to have a subject and a verb. Your reader will find it easier to understand your writing if the subject of each sentence is something they can parse as a Character, and the verb is something they can understand as an Action.  
+
+So, after you've written a first draft, go back over each sentence and identify the grammatical subjects and verbs: Is it 'A Thing'? Can it 'Do Stuff'? If not, and if there's a stronger character or action available, re-arrange the sentence so that the Thing and the Stuff It Does are in the right spot.  Here's a cheesy example: 
+
+<<<
+Once upon a time, as a walk through the woods was taking place on the part of
+Little Red Riding Hood, the Wolf’s jump out from behind a tree caused her fright.
+
+Williams and Bizup, [[Style|https://www.pearson.com/us/higher-education/product/Williams-Style-Lessons-in-Clarity-and-Grace-11th-Edition/9780321898685.html]]
+<<<
+
+In the first clause, 'a walk through the woods' is the grammatical subject, and 'taking place' is the verb.  
+
+
+Additional notes:
+
+* Your reader will find your Characters easier to recognise if you refer to them with consistent names.
+* If there's a concept that you need to serve as a Character, and your reader might not be familiar with it- or might not think of it as A Thing That Does Stuff- you might need to use a sentence or paragraph to formally introduce it.
+* People nearly always work as Characters.
+* "You" always works as a Character, but it's not great for formal styles.
+* I don't think I've ever re-written a single piece of writing as much as this page.
+* "Things That Do Stuff" is an unsurprisingly difficult Google. [[Norman Ramsey|https://homes.cs.washington.edu/~mernst/advice/write-technical-paper.html#norman-ramsey]] lists this as a writing tip, under "Subjects and Verbs", or "Agents and Actions".
+
+If you're a programmer, this might seem familiar.  This technique changes the structure of a written work without changing its meaning, in order to emphasise individual actors and the actions that they take. That's exactly what you're doing when you refactor code in the object-oriented style, and for the same reasons.  This is because [[Code Is Storytelling]].
+
+
+
+

@@ -1,0 +1,42 @@
+created: 20210524015544905
+modified: 20210526015703604
+tags: 
+title: The Clean Language
+type: text/vnd.tiddlywiki
+
+Have you ever felt like you were talking to someone who just straight-up could not understand you?  There's a glorious phrase for that feeling in Cantonese slang: they call it [[雞同鴨講|http://www.cantonese.sheik.co.uk/dictionary/words/2191/]], or "a chicken talking to a duck".
+
+Everyone carries around their own set of experiences, assumptions, metaphors, and mental frameworks for understanding the world. If you're trying the [[Complex]] task of talking to someone with a different context or perspective, it's easy to walk away without a real shared understanding.
+
+To truly understand someone else, you need to take your own metaphors and assumptions, and set them aside.
+
+[[The Clean Language|https://en.wikipedia.org/wiki/Clean_language]] started as a psychotherapy technique, invented by [[David Grove]], to help patients develop and express metaphors for their internal experiences.  [[Caitlin Walker]] uses it to facilitate group discussions, and help teams understand each other: she describes it in her book, [[From Contempt to Curiosity|https://cleanlearning.co.uk/products/detail/from-contempt-to-curiosity]]. I use it when talking to domain experts, Product People, and users with nonsensical bug reports.
+
+Use this technique instead of dismissing someone who is 'obviously wrong', or to help someone who is trying to make a point. There's a lot of back-and-forth involved: I've made it work over a video call and a text chat, but I wouldn't want to try it using email or asynchronous communication.  
+
+When you're using the technique, you're 'allowed' to use any words that the other person has used, and you're allowed to slot them into a set of 'clean' questions that contain no assumptions. (Think about surgical tools, or a laboratory glovebox, or Idris Elba in Pacific Rim. "I carry nothing into the Drift.") There are about 20 or so questions in the full set, but you can get quite far with the basic 9.  
+
+Most questions have a 'specific' and a 'vague' form: The distinction is subtle, but you can use the different forms to get different answers.
+
+You can locate something in 'space':
+
+* Where is ...?
+* Whereabouts is ...?
+
+You can locate something in time:
+
+* Where does ... come from?
+* What happens just before ...?
+* What happens next?
+* And then what happens?
+
+You can ask for details about a thing:
+
+* What kind of ... is that ...?
+* Is there anything else about ...?
+
+And there's one 'escape' question you can use to prompt a metaphor or an abstraction:
+
+* That's like what?
+
+The goal is to get a complete mental understanding out of one person's head and 'into the room', where it can be shared with the group. It will take time, but keep going until you 'get it'.  
