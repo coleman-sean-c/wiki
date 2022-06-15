@@ -1,5 +1,5 @@
 created: 20210524072930624
-modified: 20210526015703615
+modified: 20220615035454414
 tags: 
 title: Things That Do Stuff
 type: text/vnd.tiddlywiki
@@ -29,8 +29,7 @@ Additional notes:
 * I don't think I've ever re-written a single piece of writing as much as this page.
 * "Things That Do Stuff" is an unsurprisingly difficult Google. [[Norman Ramsey|https://homes.cs.washington.edu/~mernst/advice/write-technical-paper.html#norman-ramsey]] lists this as a writing tip, under "Subjects and Verbs", or "Agents and Actions".
 
-If you're a programmer, this might seem familiar.  This technique changes the structure of a written work without changing its meaning, in order to emphasise individual actors and the actions that they take. That's exactly what you're doing when you refactor code in the object-oriented style, and for the same reasons.  This is because [[Code Is Storytelling]].
-
+If you're a programmer, this might seem familiar.  This technique changes the structure of a written work without changing its meaning, in order to emphasise individual actors and the actions that they take. That's exactly what you're doing when you refactor code in the object-oriented style, and [[for the same reasons|Code Is Storytelling]].
 
 
 
