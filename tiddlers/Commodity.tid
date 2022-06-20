@@ -1,0 +1,9 @@
+created: 20220620122044642
+modified: 20220620123936706
+tags: wardley-maps
+title: Commodity
+type: text/vnd.tiddlywiki
+
+A Commodity is something that is well understood enough to have an accepted standard, and common enough that it can be assumed to be available. Vendors aren't competing on features anymore, they they were in [[Stage 3|Product]]: they're competing on price and reliability. Clients don't particularly care where they get their commodities from, they just need it to accomplish something else.
+
+Think about how you would feel if your employer asked you to bring your own light source to the office. See also: water, electricity, and Amazon RDS.
