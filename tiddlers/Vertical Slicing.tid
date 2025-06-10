@@ -1,0 +1,44 @@
+created: 20250610133449895
+modified: 20250610143316616
+tags: 
+title: Vertical Slicing
+type: text/vnd.tiddlywiki
+
+Or: how to have your cake and eat it, too.
+
+Developing software is [[Complex]], and it's frustrating. Getting requirements is a pain, coding is hard, reviews are a chore, testing is awful, deploying is scary.
+
+Let's not do that. Let's make a cake!
+
+<a href="https://en.m.wikipedia.org/wiki/File:Pound_layer_cake.jpg" target="_blank">
+[img[Pound_layer_cake.jpg]]
+</a>
+
+Look at that. Sponge, raspberry jam, more sponge, lemon curd, more sponge, buttercream icing, piped florets on top. Delicious. 
+
+Cake, like software, is made in layers. Each layer provides something different to the experience, and each requires different ingredients and skills to make. 
+
+So, when you run a bakery, you make all of the layers of a cake, then cut the cake into pieces, sell them to very happy customers, who eat them, and then you have no cake.  Cake, unlike software, is destroyed when it is consumed.
+
+In a way, that's okay: we'll make more cake. Cake, unlike software, scales linearly.  To make three times as much cake, you need three times as many eggs, three times as much flour, and either an oven that's three times as big, or three times as much baking time.
+
+But on the other hand, we're doing a lot of work to end up in the same place at the end of the day, and as a programmer, that annoys me. I want to Ctrl-V the cake.
+
+<a href="https://commons.m.wikimedia.org/wiki/File:ASCII_cake.jpg" target="_blank">
+[img[ASCII_cake.jpg]]
+</a>
+
+Vertical slicing is a technique from software development, where we get to have our cake and eat it too. Instead of creating our application one broad, complete, horizontal layer at a time, we're going to make one narrow slice, with every layer needed to support that tiny piece, and then put it in the storefront and sell it right away.
+
+||!Cake |!Software|
+|Layers| ✅ | ✅ |
+|Linear| ✅ | ❌ |
+|Edible| ✅ | ❌ |
+
+So, instead of gathering all the requirements at once and writing a complete specification before we get started on anything, we're going to work with our stakeholders to detail a single improvement over what we already have. Gathering one small requirement is exponentially easier than gathering many large requirements.
+
+Then we write the code and tests. One small new feature might require changes to several layers: from data storage, to business logic, to the API, to the user interface. But if the code has good separation of concerns, then each layer can be written, tested, and reviewed separately: and several small code reviews are exponentially easier to do than one massive code review.
+
+Next, we deploy. Traditionally, this was the scariest part of the software development lifecycle, but if you invest in your deployment pipeline using modern DevOps tools, deployments can be a one-click, fully-automated process. Once we do that, deploying many small changes is not meaningfully harder than deploying one large change. Once we've deployed, the new feature could potentially go live for everyone who uses the software, and start improving their experience.
+
+And that's vertical slicing. It's a different collaboration model, and a different way of thinking about value, but it makes every step of the software development process more efficient, and produces a continuous stream of valuable improvements.
